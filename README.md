@@ -12,9 +12,9 @@
 
 The number of rectangles in a set is a multiple of 4, plus 1. For example:
 
-<code>
+<pre>
 rectangles = { r0, r1, r2, ..., r16 }
-</code>
+</pre>
 
 Each rectangle represents a member of a related group of entities. For example, skills in a skillset. Using this example, each skill is given a weighting to indicate its importance in the skillset. a rectangle's weighting corresponds to its height.
 
