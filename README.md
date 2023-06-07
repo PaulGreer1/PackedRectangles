@@ -26,5 +26,5 @@ So, the importance, or strength, of any particular rectangle is given by the com
 
 #### 2. Drawing the rectangles
 
-A rectangle is drawn from its top-left corner. This is called the 'origin' of the rectangle. In order to draw the rectangles according to the layout described above, we first need to specify generic equations for their origins in terms of `(x,y)` coordinates, heights and widths. We can then use these equations to write the methods that will do the drawing. The methods will be able to handle any set with a number of rectangles that is a multiple of 4, plus 1, without having to modify the method.
+A rectangle is drawn from its top-left corner. This is called the 'origin' of the rectangle. In order to draw the rectangles according to the layout described above, we first need to specify generic equations for their origins in terms of `(x,y)` coordinates, heights and widths. We can then use these equations to write the methods that will do the drawing. These drawing methods will be able to handle any set with a number of rectangles that is a multiple of 4, plus 1, without having to modify the method.
 
