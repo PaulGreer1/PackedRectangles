@@ -16,7 +16,7 @@ The number of rectangles in a set is a multiple of 4, plus 1. For example:
 rectangles = { r0, r1, r2, ..., r16 }
 </pre>
 
-Each rectangle represents a member of a related group of entities. For example, skills in a skillset. Using this example, each skill is given a weighting to indicate its importance in the skillset. A rectangle's weighting corresponds to its height.
+Each rectangle represents a member of a group of related entities. For example, skills in a skillset. Using this example, each skill is given a weighting to indicate its importance in the skillset. A rectangle's weighting corresponds to its height.
 
 The set of rectangles is ordered by height, with the tallest being at the front of the set. Rectangle widths can vary. This allows a name or a short sentence or graphic to occupy any particular rectangle.
 
