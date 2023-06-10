@@ -4,7 +4,7 @@
 
 Simple weighting map generator.
 
-![Packed_rectangles_example](https://github.com/PaulGreer1/PackedRectangles/blob/main/specification/PACKED_RECTANGLES.png)
+![Packed_rectangles_example](https://github.com/PaulGreer1/PackedRectangles/blob/main/specification/PackedRectangles.png)
 
 ### Requirements
 
