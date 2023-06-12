@@ -1,0 +1,161 @@
+###################################################################
+PackedRectangles requirements analysis
+
+###################################################################
+Simple weighting map generator.
+
+weighting map | ENTITY TYPE: WeightMap
+generator |
+
+===================================================================
+The number of rectangles in a set is a multiple of 4, plus 1. For example:
+
+number of rectangles |
+set |
+multiple |
+
+===================================================================
+rectangles = { r0, r1, r2, ..., r16 }
+
+rectangles |
+
+===================================================================
+Each rectangle represents a member of a group of related entities.
+
+member | ENTITY TYPE:
+group |
+entities |
+
+===================================================================
+For example, skills in a skillset.
+
+example |
+skills |
+skillset |
+
+===================================================================
+Using this example, each skill is given a weighting to indicate its importance in the skillset.
+
+weighting |
+importance |
+
+===================================================================
+A rectangle's weighting corresponds to its height.
+
+height |
+
+===================================================================
+The set of rectangles is ordered by height, with the tallest being at the front of the set.
+
+height |
+tallest |
+front |
+
+===================================================================
+Rectangle widths can vary.
+
+widths |
+
+===================================================================
+This allows a name or a short sentence or graphic to occupy any particular rectangle.
+
+name |
+short sentence |
+graphic |
+
+===================================================================
+The rectangles are laid out in a manner similar to that shown in the diagram.
+
+diagram |
+
+===================================================================
+The tallest rectangle (the rectangle at the front of the set) is placed in the middle, with the rest of the rectangles being placed around the sides of this central rectangle.
+
+front |
+middle |
+sides |
+central rectangle |
+
+===================================================================
+The rectangles are distributed amongst the sides of the central rectangle as if dealing cards.
+
+cards |
+
+===================================================================
+So, for example, `r1, r4, r7` and `r10` will be on sides `1, 2, 3` and `4` respectively.
+
+`r1, r4, r7` and `r10` |
+`1, 2, 3` and `4` |
+
+===================================================================
+So, the importance, or strength, of any particular entity in the set relative to the others, is given by the combination of the height of its rectangle, along with a rough visual proximity to the centre of the group, where increasing distance corresponds to decreasing strength.
+
+importance |
+strength |
+entity |
+others |
+combination |
+visual proximity |
+centre |
+group |
+
+===================================================================
+Drawing the rectangles
+
+===================================================================
+A rectangle is drawn from its top-left corner.
+
+corner |
+
+===================================================================
+This is called the 'origin' of the rectangle.
+
+origin |
+
+===================================================================
+In order to draw the rectangles according to the layout described above, we first need to specify generic equations for their origins in terms of `(x,y)` coordinates, heights and widths.
+
+layout |
+beneric equations |
+`(x,y)` coordinates |
+
+===================================================================
+We can then use these equations to write the methods that will do the drawing.
+
+methods |
+
+===================================================================
+These drawing methods will be able to handle any set with a number of rectangles that is a multiple of 4, plus 1, without having to modify the methods, (although the methods could be developed later so that number of rectangles is not restricted to a multiple of 4, plus 1).
+
+number |
+multiple |
+
+###################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
