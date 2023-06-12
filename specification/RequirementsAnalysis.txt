@@ -116,7 +116,7 @@ origin |
 In order to draw the rectangles according to the layout described above, we first need to specify generic equations for their origins in terms of `(x,y)` coordinates, heights and widths.
 
 layout |
-beneric equations |
+generic equations |
 `(x,y)` coordinates |
 
 ===================================================================
