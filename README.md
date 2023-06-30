@@ -1,3 +1,5 @@
+![Request_response_sequence_diagram](https://github.com/PaulGreer1/WebsiteLamp/blob/main/DOWNTOWNCODER_004.png)
+
 ## PackedRectangles
 
 ### Overview
